@@ -70,8 +70,13 @@ p {
   z-index: 9999;
 }
 
-.my-alert img {
-  width: 25px;
+.my-alert p {
+  margin: 0;
+  padding: 0;
+}
+
+.my-alert i {
+  font-size: 25px;
   margin-right: 7px;
 }
 
@@ -86,7 +91,6 @@ p {
 
 .my-alert.my-alert-success p {
   color: #00792f;
-  margin: 0;
 }
 
 .my-alert.my-alert-danger {
@@ -96,11 +100,6 @@ p {
   border: 1px solid #ff6868;
   border-radius: 55px;
   width: fit-content;
-}
-
-.my-alert.my-alert-danger p {
-  color: #790000;
-  margin: 0;
 }
 
 @media(max-width:900px) {
@@ -113,7 +112,7 @@ p {
     font-size: 16px;
   }
 
-  .my-alert img {
-    width: 20px;
+  .my-alert i {
+    font-size: 20px;
   }
 }

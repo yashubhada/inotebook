@@ -1,6 +1,4 @@
 import React from 'react'
-import redCross from '../images/red-cross.png'
-import greenCheck from '../images/green-check.png'
 
 const Alert = (props) => {
     const capitalize = (word) => {
@@ -10,7 +8,7 @@ const Alert = (props) => {
     return (
         <>
             {props.alert && <div className={`my-alert my-alert-${props.alert.type}`}>
-                <img src={props.alert.type === 'success' ? greenCheck : redCross} alt='Icon'/>
+                {props.alert.type === 'success' ? <i className="fa-solid fa-circle-check text-success"></i> : <i className="fa-solid fa-circle-xmark text-danger"></i>}
                 <p>{capitalize(props.alert.msg)}</p>
             </div>}
         </>
