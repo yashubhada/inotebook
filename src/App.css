@@ -1,0 +1,119 @@
+.navbar .nav-link.active {
+  background-color: #0d6efd;
+  color: #FFF !important;
+}
+
+.navbar .nav-link:hover {
+  color: #0d6efd;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+input:focus {
+  box-shadow: none !important;
+}
+
+.btn-close:focus {
+  box-shadow: none !important;
+}
+
+textarea:focus {
+  box-shadow: none !important;
+}
+
+@media (max-width:991px) {
+  .navbar .nav-item .nav-link {
+    padding-left: 10px;
+  }
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+.navbar-toggler:focus {
+  border: 0;
+  box-shadow: none !important;
+}
+
+p {
+  margin: 0;
+}
+
+/* Notes Item  */
+
+.main-col {
+  position: relative;
+}
+
+.note-description {
+  padding-bottom: 20px;
+}
+
+.notes-items-button {
+  position: absolute;
+  bottom: 10px;
+}
+
+
+/* Alert */
+
+.my-alert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 70px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.my-alert img {
+  width: 25px;
+  margin-right: 7px;
+}
+
+.my-alert.my-alert-success {
+  background: #deffeb;
+  padding: 7px 15px;
+  font-size: 18px;
+  border: 1px solid #00b948;
+  border-radius: 55px;
+  width: fit-content;
+}
+
+.my-alert.my-alert-success p {
+  color: #00792f;
+  margin: 0;
+}
+
+.my-alert.my-alert-danger {
+  background: #fff3f3;
+  padding: 7px 15px;
+  font-size: 18px;
+  border: 1px solid #ff6868;
+  border-radius: 55px;
+  width: fit-content;
+}
+
+.my-alert.my-alert-danger p {
+  color: #790000;
+  margin: 0;
+}
+
+@media(max-width:900px) {
+  .my-alert {
+    right: 10px;
+  }
+
+  .my-alert.my-alert-success {
+    padding: 5px 12px;
+    font-size: 16px;
+  }
+
+  .my-alert img {
+    width: 20px;
+  }
+}
