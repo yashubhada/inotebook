@@ -8,7 +8,12 @@ const Alert = (props) => {
     return (
         <>
             {props.alert && <div className={`my-alert my-alert-${props.alert.type}`}>
-                {props.alert.type === 'success' ? <i className="fa-solid fa-circle-check text-success"></i> : <i className="fa-solid fa-circle-xmark text-danger"></i>}
+                {
+                    props.alert.type === 'success' ?
+                        <i className="fa-solid fa-circle-check text-success"></i>
+                        :
+                        <i className="fa-solid fa-triangle-exclamation text-danger"></i>
+                }
                 <p>{capitalize(props.alert.msg)}</p>
             </div>}
         </>

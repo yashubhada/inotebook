@@ -11,7 +11,7 @@ const NoteState = (props) => {
         })
         setTimeout(() => {
             setAlert(null);
-        }, 3000);
+        }, 4000);
     }
 
     const host = "http://localhost:5000";

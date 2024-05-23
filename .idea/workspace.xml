@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b042d1a8-2c26-4d2c-9235-d2cb38ef77df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/Alert.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Alert.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Navbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/context/NoteState.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/NoteState.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +45,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -55,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716462735492</updated>
-      <workItem from="1716462741726" duration="1100000" />
+      <workItem from="1716462741726" duration="2615000" />
     </task>
     <servers />
   </component>

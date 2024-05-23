@@ -1,5 +1,6 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import { NavLink, Link, useNavigate } from 'react-router-dom'
+import NoteContext from '../context/noteContext';
 
 const Navbar = () => {
     const hideNav = () => {
@@ -8,9 +9,12 @@ const Navbar = () => {
     }
 
     const navigate = useNavigate();
+    const context = useContext(NoteContext);
+    const { showAlert } = context;
     const logout = () => {
         if(localStorage.getItem('token')) {
             localStorage.removeItem('token')
+            showAlert("Logged out successfully", "success")
             navigate("/login");
         } 
     }
