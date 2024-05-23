@@ -11,9 +11,9 @@ function Home() {
   document.title = "iNoteBook | Home"
   return (
     <>
-      <Alert alert={alert}/>
-      <AddNote />
-      <Note />
+        <Alert alert={alert} />
+        <AddNote />
+        <Note />
     </>
   )
 }
