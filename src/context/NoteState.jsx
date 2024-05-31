@@ -63,7 +63,7 @@ const NoteState = (props) => {
                 "auth-token": localStorage.getItem('token'),
             }
         });
-        response.json();
+        await response.json();
         // End of API call
         const removeNote = notes.filter((e) => { return e._id !== noteId });
         setNotes(removeNote);
